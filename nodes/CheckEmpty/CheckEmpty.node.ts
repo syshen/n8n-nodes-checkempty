@@ -18,6 +18,7 @@ export class CheckEmpty implements INodeType {
 			name: 'CheckEmpty',
 		},
 		inputs: ['main'],
+		// eslint-disable-next-line n8n-nodes-base/node-class-description-outputs-wrong
 		outputs: ['main', 'main'],
 		outputNames: ['empty', 'not empty'],
 		credentials: [
